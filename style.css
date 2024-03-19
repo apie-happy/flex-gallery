@@ -1,0 +1,17 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #333;
+}
+
+.container-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 50px;
+}
